@@ -81,7 +81,7 @@ nav li a {
 
 main {
     max-width: 140%;
-    margin: 70px auto;
+    margin: 70px;
 }
 
 /* TEAMS STYLE */
@@ -96,16 +96,16 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1rem;
-    column-gap: 4rem;
+    column-gap: 2.5rem;
 }
 
 img {
-    max-width: 140%;
+    max-width: 120%;
 }
 
 .teams-content {
-    padding-left: 90px;
-    padding-right: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .teams-title {
@@ -134,7 +134,7 @@ img {
         padding: 20px;
     }
     main {
-        margin:40px auto;
+        margin: 40px auto;
     }
 
     .teams-container {
@@ -152,7 +152,8 @@ img {
     }
 
     .teams-content {
-        padding: 0 10px;
+        padding: 30px;
+        text-align: center;
     }
 
 }
@@ -166,5 +167,10 @@ img {
     nav,
     .teams-container {
         flex-direction: column;
+    }
+    .teams-img-container {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 4rem;
     }
 }
