@@ -130,7 +130,7 @@ img {
 .features{
     margin-top: 110px;
     display: flex;
-    gap: 140px;
+    gap: 60px;
 }
 .features .section-title{
     border-left: 5px solid #FF900E;
@@ -144,15 +144,26 @@ img {
     background: #fffefe;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.189);
 }
+.feature-img img{
+    width: 120%;
+    padding-top: 80px;
+}
 .ten-years-badge{
     border-radius: 8px;
     color: #fffefe;
     background: #FF900E;
-    width: 342px;
-    padding: 40px;
+    width: 200px;
+    padding: 30px;
+    position: relative;
+    bottom: 150px;
 }
 .ten-years-badge h2{
-    font-size: 4rem;
+    font-size: 3rem;
+    margin: 10px 20px;
+}
+.ten-years-badge p{
+    font-size: 1.3rem;
+    margin: 10px 20px;
 }
 
 /* FACTS SECTION  */
