@@ -208,6 +208,21 @@ img {
     gap: 20px;
     align-items: center;
 }
+/* footer section */
+.footertext{
+    max-width: calc(100% - 170px);
+    height: auto;
+    background-color: bisque;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.footertexts{
+    padding: 1.2rem 0;
+    font-weight: 200;
+    align-items: center;
+}
 
 /* RESPONSIVE MEDIA QUERIES */
 /* MOBILE DEVICES */
